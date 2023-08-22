@@ -148,7 +148,7 @@ code {
   cursor: pointer;
 
   text-decoration: none;
-  color: rgb(243, 243, 243);
+  color: black;
   font-weight: 500;
 
 }
@@ -185,9 +185,6 @@ video {
   height: 100vh;
   z-index: 0;
   top: 0;
-  background-color: black;
-  opacity: 0.7;
-
 }
 header {
   height: 100vh;
@@ -197,17 +194,23 @@ header {
   justify-content: center;
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  opacity: 0.7;
+  background-image: url(../public/img/SDM09308.jpeg);
+  background-size: 100% 100%;
 }
 header h1 {
   z-index: 1;
   color: white;
   font-size: 64px;
+  font-family: 'Brush Script MT', cursive;
 }
 
 header h3 {
   z-index: 1;
   color: white;
   font-size: 24px;
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 .opened {
   transform: translateX(0%)!important;
@@ -216,6 +219,7 @@ header h3 {
 .main-title {
   font-size: 48px;
   color: #01bf71;
+  font-family: 'Brush Script MT', cursive;
 }
 .main-p {
   font-size: 22px;
@@ -274,7 +278,7 @@ footer .logo {
 }
 .logo a{
   text-decoration: none;
-  color: #fafafa;
+  color: black;
   
 }
 .footer-title {
@@ -534,7 +538,7 @@ ul li a {
   }
 
   .burger {
-    background-color: #fafafa;
+    background-color: black;
   }
   .navbar {
     backdrop-filter: none;
@@ -565,7 +569,7 @@ ul li a {
       cursor: pointer;
     font-size: 20px;
     text-decoration: none;
-    color: #fafafa;
+    color: black;
     font-weight: 500;
   
   }
@@ -588,16 +592,34 @@ ul li a {
 /* ANVESH */
 
 .ganesh-logo {
-  height: 20vmin;
+  height: 12vmin;
   pointer-events: none;
 }
 
 .marriage-logo {
-  height: 80vmin;
+  height: 110vmin;
   pointer-events: none;
+  margin-left: 12vmin;
 }
 
 .reception-logo {
-  height: 80vmin;
+  height: 110vmin;
   pointer-events: none;
+  margin-left: 12vmin;
+}
+
+.custom-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: rebeccapurple;
+  color: #fff;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-left: 29vmin;
+}
+
+.custom-button hover {
+  background-color: goldenrod;
 }
