@@ -42,7 +42,7 @@ function Navbar() {
               to="headerbg"
               style={{ cursor: "pointer" }}
             >
-              Welcome
+              
             </Link>
           </h1>
           <ul className="bar">
