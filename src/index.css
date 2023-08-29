@@ -623,7 +623,7 @@ ul li a {
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s ease;
-  margin-left: 29vmin;
+  margin-left: 22vmin;
 }
 
 .custom-button hover {
@@ -638,7 +638,7 @@ ul li a {
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s ease;
-  margin-left: 31vmin;
+  margin-left: 24vmin;
 }
 
 .custom-button-2 hover {
@@ -646,7 +646,7 @@ ul li a {
 }
 
 .center {
-  margin-left: 17vmin;
+  margin-left: 21vmin;
   color: white;
 }
 
