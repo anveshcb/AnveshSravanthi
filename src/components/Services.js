@@ -3,8 +3,7 @@ function Services() {
     window.open('https://maps.app.goo.gl/QtK5CoSM8rTpPCDT7');
   };
   const liveStreaming = () => {
-    alert('Will update you soon.....!!!!!');
-    //window.open('https://maps.app.goo.gl/QtK5CoSM8rTpPCDT7');
+    window.open('https://elivetelecast.com/NageshwaraAnveshKumarWedsSravanthi');
   };
   return (
     <div className="container services borderradius backgroundmarriageimage">
